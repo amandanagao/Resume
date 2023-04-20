@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Stint+Ultra+Expanded&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/* ----------Header---------- */
+header {
+    background-color: #f8f0eb;
+    padding: 1vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.header-name {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.header-role {
+    font-size: 2em;
+    color: #616d5a;
+}
+
+.download-button {
+    font-weight: 600;
+    color: #616d5a;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: 1px solid #616d5a;
+    border-radius: 5px;
+}
+
+.download-button:hover {
+    color: #FFFFFF;
+    background-color: #616d5a;
+}
+
+/* ----------Sidebar---------- */
+.sidebar {
+    background-color: #f8e6da;
+    background-repeat: repeat;
+    padding: 5vh;
+    font-weight: 600;
+}
+
+.sidebar-icons {
+    color: #616d5a;
+}
+
+.personal-info-title,
+.skills-title,
+.languages-title {
+    padding-left: 10px;
+    font-size: 2em;
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-weight: 900;
+}
+
+.personal-info-list,
+.skills-list,
+.languages-list {
+    padding-left: 1em;
+    font-size: 1em;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* ----------Personal Info---------- */
+.personal-info {
+    padding: 1vh 0;
+}
+
+.personal-info a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #616d5a;
+}
+
+.personal-info a:hover {
+    color: #f9f7ea;
+}
+
+.personal-info-icon-linkedin {
+    font-size: 1.1em;
+    color: #0B5FBB;
+}
+
+.personal-info-icon-github {
+    font-size: 1.1em;
+    color: #161414;
+}
+
+.personal-info-icon-portfolio {
+    font-size: 1.1em;
+}
+
+/* ----------Skills---------- */
+.skills {
+    padding: 1vh 0;
+}
+
+.skills-list {
+    font-size: 1.2em;
+}
+
+.skills-icon-html {
+    color: #D84924;
+}
+
+.skills-icon-css {
+    color: #2449D8;
+}
+
+.skills-icon-javascript {
+    color: #EAD41C;
+}
+
+.skills-icon-react {
+    color: #77D4F2;
+}
+
+.skills-icon-bootstrap {
+    color: #8412F2;
+}
+
+.skills-icon-github {
+    color: #161414;
+}
+
+/* ----------Laguages---------- */
+.languages {
+    padding: 1vh 0;
+}
+
+.languages-level {
+    opacity: 0.7;
+}
+
+/* ----------Content---------- */
+.content {
+    padding: 5vh;
+}
+
+.certificates-title,
+.education-title,
+.experience-title {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.summary,
+.certificates-list,
+.education-degree,
+.education-list {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* ----------Summary---------- */
+.summary {
+    text-align: justify;
+    padding: 1vh 1vw;
+}
+/* ----------Certificates---------- */
+.certificates-date {
+    font-weight: 900;
+    list-style: disc;
+}
+
+.no-border-bottom {
+    border-bottom: none;
+}
+
+/* ----------Education---------- */
+.education-degree {
+    padding-left: 1vw;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.education-list-period {
+    opacity: 0.8;
+    font-size: 1em;
+}
+/* ----------Experience---------- */
+.experience ul li {
+    list-style: disc;
+}
+
+.experience-job {
+    margin: 0 3vh 3vh;
+}
+
+.experience-role {
+    text-decoration: underline;
+}
+
+.experience-workplace,
+.experience-period,
+.experience-list {
+    margin-left: 1.5vh;
+}
+
+.experience-period {
+    opacity: 0.8;
+    font-size: 1em;
+}
+
+.experience-list-key {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* ----------Back to Top Button---------- */
+.back-to-top-button {
+    --offset: 50px; 
+
+    text-decoration: none;
+    color: #c6a290;
+    background: transparent;
+    border: 1px solid #c6a290;
+    border-radius: 50%;
+    padding: 10px;
+    position: sticky;
+    left: 100%;
+    bottom: 20px;
+    margin-top: calc(100vh + var(--offset));
+}
+
+.back-to-top-button:hover {
+    color: #b39789;
+    background-color: #FFFFFF;
+}
+
+/* ----------Print---------- */
+@media print {
+    .download-button {
+        display: none;
+    }
+
+    .sidebar,
+    .content {
+        padding: 2vh;
+        font-size: 20px;
+    }
+
+    .personal-info-title,
+    .skills-title,
+    .languages-title {
+        font-size: 1.5em;
+    }
+
+     .back-to-top-button {
+        display: none;
+    }
+}
