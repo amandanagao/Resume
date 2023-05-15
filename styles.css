@@ -15,7 +15,7 @@ ul li {
 
 /* ----------Header---------- */
 header {
-    background-color: #f8f0eb;
+    background-color: #eededc;
     padding: 1vh;
     font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -46,7 +46,7 @@ header {
 
 /* ----------Sidebar---------- */
 .sidebar {
-    background-color: #f8e6da;
+    background-color: #f0cec8;
     background-repeat: repeat;
     padding: 5vh;
     font-weight: 600;
@@ -224,9 +224,9 @@ header {
     --offset: 50px; 
 
     text-decoration: none;
-    color: #c6a290;
+    color: #f0b7ad;
     background: transparent;
-    border: 1px solid #c6a290;
+    border: 1px solid #f0b7ad;
     border-radius: 50%;
     padding: 10px;
     position: sticky;
@@ -237,7 +237,7 @@ header {
 
 .back-to-top-button:hover {
     color: #FFFFFF;
-    background-color: #c6a290;
+    background-color: #f0b7ad;
 }
 
 /* ----------Print---------- */
