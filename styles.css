@@ -75,6 +75,10 @@ header {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+.soft-skills ul li {
+    list-style-type: disc;
+}
+
 /* ----------Personal Info---------- */
 .personal-info {
     padding: 1vh 0;
